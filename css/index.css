@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    color: rgb(0, 5, 106);
+}
+body{
+    background-color: rgb(150, 206, 255);
+}
+.titulo{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+}
+.topicos{
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+img{
+    width: 150px;
+}
+.titulo2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    border-style: double;
+    width: 400px;
+    height: 70px;
+}
+.mae{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.informacoes{
+    width: 60%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+li{
+    font-family: 'Amatic SC', cursive;
+}
+a{
+    text-decoration: none;
+}
+.titulo3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.inicial{
+    display: flex;
+}
+.pessoal{
+    display: flex;
+}
+.menor{
+    flex-direction: column;
+}
